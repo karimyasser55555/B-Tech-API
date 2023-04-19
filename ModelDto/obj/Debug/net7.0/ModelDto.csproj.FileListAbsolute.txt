@@ -1,0 +1,15 @@
+D:\ITI\Final_Project_Angular\Api_Review\APIs\ModelDto\bin\Debug\net7.0\ModelDto.deps.json
+D:\ITI\Final_Project_Angular\Api_Review\APIs\ModelDto\bin\Debug\net7.0\ModelDto.dll
+D:\ITI\Final_Project_Angular\Api_Review\APIs\ModelDto\bin\Debug\net7.0\ModelDto.pdb
+D:\ITI\Final_Project_Angular\Api_Review\APIs\ModelDto\bin\Debug\net7.0\Domain.dll
+D:\ITI\Final_Project_Angular\Api_Review\APIs\ModelDto\bin\Debug\net7.0\Domain.pdb
+D:\ITI\Final_Project_Angular\Api_Review\APIs\ModelDto\obj\Debug\net7.0\ModelDto.csproj.AssemblyReference.cache
+D:\ITI\Final_Project_Angular\Api_Review\APIs\ModelDto\obj\Debug\net7.0\ModelDto.GeneratedMSBuildEditorConfig.editorconfig
+D:\ITI\Final_Project_Angular\Api_Review\APIs\ModelDto\obj\Debug\net7.0\ModelDto.AssemblyInfoInputs.cache
+D:\ITI\Final_Project_Angular\Api_Review\APIs\ModelDto\obj\Debug\net7.0\ModelDto.AssemblyInfo.cs
+D:\ITI\Final_Project_Angular\Api_Review\APIs\ModelDto\obj\Debug\net7.0\ModelDto.csproj.CoreCompileInputs.cache
+D:\ITI\Final_Project_Angular\Api_Review\APIs\ModelDto\obj\Debug\net7.0\ModelDto.csproj.CopyComplete
+D:\ITI\Final_Project_Angular\Api_Review\APIs\ModelDto\obj\Debug\net7.0\ModelDto.dll
+D:\ITI\Final_Project_Angular\Api_Review\APIs\ModelDto\obj\Debug\net7.0\refint\ModelDto.dll
+D:\ITI\Final_Project_Angular\Api_Review\APIs\ModelDto\obj\Debug\net7.0\ModelDto.pdb
+D:\ITI\Final_Project_Angular\Api_Review\APIs\ModelDto\obj\Debug\net7.0\ref\ModelDto.dll
