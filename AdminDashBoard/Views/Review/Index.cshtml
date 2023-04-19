@@ -1,0 +1,79 @@
+﻿@model IEnumerable<AdminDashBoard.ViewModel.GetAllReview>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<div class="container  mt-2">
+    <div class="row ">
+        <div class="col">
+            <form asp-controller="Review" asp-action="Index" method="get">
+                <select name="statusFilter" asp-items="@ViewBag.UserName" class="form-control w-50 mb-2 rounded-5"> 
+                </select>
+                <select name="statusFilter1" asp-items="@ViewBag.product" class="form-control w-50 mb-2 rounded-5">
+                </select>
+                <input type="submit" class=" bg-secondary text-white p-2 rounded-5" value="Filter" />
+            </form>
+        </div>
+    </div>
+</div>
+
+
+
+<table class="table bg-secondary rounded-2">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Id)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Comment)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Rate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Username)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Productname)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Date)
+            </th>
+            
+             </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Id)
+                </td>
+                
+                
+                <td>
+                    @Html.DisplayFor(modelItem => item.Comment)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Rate)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Username)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Productname)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Date)
+                </td>
+                <td>
+                    @Html.ActionLink("Update", "Update", new {   Id=item.Id }) |
+                    @Html.ActionLink("Details", "Details", new {   Id=item.Id  }) |
+                    @Html.ActionLink("Delete", "Delete", new {  id=item.Id  })
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

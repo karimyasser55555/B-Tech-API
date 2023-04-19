@@ -1,0 +1,61 @@
+﻿@model AdminDashBoard.ViewModel.ProductDetails
+ 
+
+<div class="container p-3 my-3 border">
+    
+    <hr />
+    <dl class="row">
+        <dt></dt>
+        <dd>
+            <img src="/@Model.ImagePath" width="100" height="150" />
+        </dd>
+        
+        <dt class="col-sm-3">
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+        <dd class="col-sm-9">
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+        <dt class="col-sm-3">
+            @Html.DisplayNameFor(model => model.NameArabic)
+        </dt>
+        <dd class="col-sm-9">
+            @Html.DisplayFor(model => model.NameArabic)
+        </dd>
+        <dt class="col-sm-3">
+            @Html.DisplayNameFor(model => model.Discription)
+        </dt>
+        <dd class="col-sm-9">
+            @Html.DisplayFor(model => model.Discription)
+        </dd>
+        <dt class="col-sm-3">
+            @Html.DisplayNameFor(model => model.DiscArabic)
+        </dt>
+        <dd class="col-sm-9">
+            @Html.DisplayFor(model => model.DiscArabic)
+        </dd>
+        <dt class="col-sm-3">
+            @Html.DisplayNameFor(model => model.Price)
+        </dt>
+        <dd class="col-sm-9">
+            @Html.DisplayFor(model => model.Price)
+        </dd>
+          <dt class="col-sm-3">
+            @Html.DisplayNameFor(model => model.AvailUnit)
+        </dt>
+        <dd class="col-sm-9">
+            @Html.DisplayFor(model => model.AvailUnit)
+        </dd>
+    </dl>
+     
+</div>
+ 
+<div>
+    <a asp-action="Index" class="btn btn-primary">Back to List</a>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
