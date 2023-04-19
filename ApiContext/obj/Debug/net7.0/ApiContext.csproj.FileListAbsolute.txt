@@ -1,0 +1,17 @@
+D:\ITI\Final_Project_Angular\Api_Review\APIs\ApiContext\bin\Debug\net7.0\ApiContext.deps.json
+D:\ITI\Final_Project_Angular\Api_Review\APIs\ApiContext\bin\Debug\net7.0\ApiContext.runtimeconfig.json
+D:\ITI\Final_Project_Angular\Api_Review\APIs\ApiContext\bin\Debug\net7.0\ApiContext.dll
+D:\ITI\Final_Project_Angular\Api_Review\APIs\ApiContext\bin\Debug\net7.0\ApiContext.pdb
+D:\ITI\Final_Project_Angular\Api_Review\APIs\ApiContext\bin\Debug\net7.0\Domain.dll
+D:\ITI\Final_Project_Angular\Api_Review\APIs\ApiContext\bin\Debug\net7.0\Domain.pdb
+D:\ITI\Final_Project_Angular\Api_Review\APIs\ApiContext\obj\Debug\net7.0\ApiContext.csproj.AssemblyReference.cache
+D:\ITI\Final_Project_Angular\Api_Review\APIs\ApiContext\obj\Debug\net7.0\ApiContext.GeneratedMSBuildEditorConfig.editorconfig
+D:\ITI\Final_Project_Angular\Api_Review\APIs\ApiContext\obj\Debug\net7.0\ApiContext.AssemblyInfoInputs.cache
+D:\ITI\Final_Project_Angular\Api_Review\APIs\ApiContext\obj\Debug\net7.0\ApiContext.AssemblyInfo.cs
+D:\ITI\Final_Project_Angular\Api_Review\APIs\ApiContext\obj\Debug\net7.0\ApiContext.csproj.CoreCompileInputs.cache
+D:\ITI\Final_Project_Angular\Api_Review\APIs\ApiContext\obj\Debug\net7.0\ApiContext.csproj.CopyComplete
+D:\ITI\Final_Project_Angular\Api_Review\APIs\ApiContext\obj\Debug\net7.0\ApiContext.dll
+D:\ITI\Final_Project_Angular\Api_Review\APIs\ApiContext\obj\Debug\net7.0\refint\ApiContext.dll
+D:\ITI\Final_Project_Angular\Api_Review\APIs\ApiContext\obj\Debug\net7.0\ApiContext.pdb
+D:\ITI\Final_Project_Angular\Api_Review\APIs\ApiContext\obj\Debug\net7.0\ApiContext.genruntimeconfig.cache
+D:\ITI\Final_Project_Angular\Api_Review\APIs\ApiContext\obj\Debug\net7.0\ref\ApiContext.dll
